@@ -84,7 +84,6 @@ public class MemoryCache implements Cache {
         }
     }
 
-
     @Override
     public void put(String key, Object value) {
         if (value instanceof Bitmap || value instanceof String)

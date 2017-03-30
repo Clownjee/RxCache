@@ -386,7 +386,6 @@ public final class RxCache {
                 }
             }
         }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-
     }
 
     /**
@@ -422,7 +421,6 @@ public final class RxCache {
      * @param callback 回调函数
      */
     public static void putIntAsync(final String key, final int value, final Callback callback) {
-
         new AsyncTask<Void, Integer, Boolean>() {
             @Override
             protected Boolean doInBackground(Void... params) {

@@ -138,7 +138,6 @@ public class DiskCache implements Cache {
             }
             editor.commit();
             this.diskLruCache.flush();
-
         } catch (Exception e) {
             e.printStackTrace();
         }
