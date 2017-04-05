@@ -1,4 +1,4 @@
-package com.clownjee.rxcache.cache;
+package com.ghizzoniandrea.rxcache.cache;
 
 import android.graphics.Bitmap;
 

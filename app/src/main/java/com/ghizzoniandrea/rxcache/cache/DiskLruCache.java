@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.clownjee.rxcache.cache;
+package com.ghizzoniandrea.rxcache.cache;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedWriter;
